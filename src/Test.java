@@ -9,8 +9,15 @@ public class Test {
             System.out.println("Please enter a valid employee count");
             return;
         }
-        int array[] = new int[n];
+        System.out.println("Enter age....");
+        int[] array = new int[n];
         for(int i = 0 ; i < n ; i++){
+            array[i] = scanner.nextInt();
+            if((array[i]<28) && (array[i] > 40)){
+                System.out.println("Invalid range");
+
+            }
+
 
         }
     }
