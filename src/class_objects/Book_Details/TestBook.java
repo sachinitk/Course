@@ -1,4 +1,6 @@
-package class_objects;
+package class_objects.Book_Details;
+
+import class_objects.Book_Details.Book;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package class_objects; //yeh line nahi likni hai
+package class_objects.Book_Details; //yeh line nahi likni hai
 
 public class Book {
     private String bookName;
