@@ -1,3 +1,5 @@
+package Introduction_to_java;
+
 import java.util.Scanner;
 
 public class IncrementCalculation {
