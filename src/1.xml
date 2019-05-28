@@ -1,0 +1,43 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="persons">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="person">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="name" type="xs:string" />
+                     <xs:element name="age" type="xs:integer" />
+                     <xs:element name="gender" type="xs:string" />
+                     <xs:element name="address">
+                        <xs:sequence>
+                           <xs:element name="doorno" type="xs:integer" />
+                           <xs:element name="street" type="xs:string" />
+                           <xs:element name="city" type="xs:string" />
+                           <xs:element name="state" type="xs:string" />
+                        </xs:sequence>
+                     </xs:element>
+                     <xs:element name="student" minOccurs="0">
+                        <xs:complexType>
+                           <xs:sequence>
+                              <xs:element name="rollno" type="xs:integer" />
+                              <xs:element name="standard" type="xs:integer" />
+                              <xs:element name="section" type="xs:string" />
+                           </xs:sequence>
+                        </xs:complexType>
+                     </xs:element>
+                     <xs:element name="staff" minOccurs="0">
+                        <xs:complexType>
+                           <xs:sequence>
+                              <xs:element name="staffid" type="xs:integer" />
+                              <xs:element name="subject" type="xs:string" />
+                           </xs:sequence>
+                        </xs:complexType>
+                     </xs:element>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
