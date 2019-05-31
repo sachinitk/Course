@@ -1,7 +1,7 @@
 package class_objects.ticket_price_calculation_static;
  /*
 
- Test CASES PE FAIL HO SAKTA HAI YEH ..LIKHNE LIH AUR RUN KAR KE DEKH LENGE
+ array_strings.Test CASES PE FAIL HO SAKTA HAI YEH ..LIKHNE LIH AUR RUN KAR KE DEKH LENGE
 
   */
 import java.util.Scanner;

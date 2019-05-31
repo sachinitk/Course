@@ -1,3 +1,5 @@
+package array_strings;
+
 import java.util.Scanner;
 
 public class Course {
@@ -21,7 +23,7 @@ public class Course {
                 return;
             }
         }
-        System.out.println("Course is not available");
+        System.out.println("array_strings.Course is not available");
 
     }
 }

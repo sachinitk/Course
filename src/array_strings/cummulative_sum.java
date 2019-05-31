@@ -1,3 +1,5 @@
+package array_strings;
+
 import java.util.Scanner;
 //2 condtion add karni hai
 public class cummulative_sum {

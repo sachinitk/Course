@@ -1,3 +1,5 @@
+package array_strings;
+
 import java.util.Scanner;
 
 public class login {
