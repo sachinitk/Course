@@ -1,5 +1,5 @@
 package array_strings.average_Grade;
-
+//this is paackage class
 import java.util.Scanner;
 
 public class StudentMain {

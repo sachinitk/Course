@@ -8,7 +8,9 @@ public class ReplaceWord {
         String str = "";
         System.out.println("Enter the string:");
         str += scanner.nextLine();
+
         String[] sentence  = str.split(" ");
+
         System.out.println("Enter the word to be searched:");
         String wordc = scanner.nextLine();
         int flag =0;
